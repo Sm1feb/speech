@@ -8,3 +8,7 @@ if(isset($_POST['txt'])){
 	echo $player;
 }
 ?>
+<form method="post">
+    <input type="textbox" id="txt" name ="txt"/>
+    <input type="submit" name="submit" value="Convert to speech"/>
+</form>
